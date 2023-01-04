@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADA30DD2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30DC2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift */; };
+		FADA30DF2965ACAE00EB6B1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30DE2965ACAE00EB6B1C /* ContentView.swift */; };
+		FADA30E12965ACB600EB6B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA30E02965ACB600EB6B1C /* Assets.xcassets */; };
+		FADA30E42965ACB600EB6B1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA30E32965ACB600EB6B1C /* Preview Assets.xcassets */; };
+		FADA30EF2965ACB700EB6B1C /* Heidrun_MacOS_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30EE2965ACB700EB6B1C /* Heidrun_MacOS_ClientTests.swift */; };
+		FADA30F92965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30F82965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift */; };
+		FADA30FB2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30FA2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADA30EB2965ACB700EB6B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADA30D12965ACAD00EB6B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADA30D82965ACAD00EB6B1C;
+			remoteInfo = "Heidrun MacOS Client";
+		};
+		FADA30F52965ACB800EB6B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADA30D12965ACAD00EB6B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADA30D82965ACAD00EB6B1C;
+			remoteInfo = "Heidrun MacOS Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADA30D92965ACAE00EB6B1C /* Heidrun MacOS Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heidrun MacOS Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA30DC2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientApp.swift; sourceTree = "<group>"; };
+		FADA30DE2965ACAE00EB6B1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FADA30E02965ACB600EB6B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADA30E32965ACB600EB6B1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FADA30E52965ACB600EB6B1C /* Heidrun_MacOS_Client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Heidrun_MacOS_Client.entitlements; sourceTree = "<group>"; };
+		FADA30EA2965ACB700EB6B1C /* Heidrun MacOS ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heidrun MacOS ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA30EE2965ACB700EB6B1C /* Heidrun_MacOS_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientTests.swift; sourceTree = "<group>"; };
+		FADA30F42965ACB800EB6B1C /* Heidrun MacOS ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heidrun MacOS ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADA30F82965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientUITests.swift; sourceTree = "<group>"; };
+		FADA30FA2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADA30D62965ACAD00EB6B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA30E72965ACB700EB6B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA30F12965ACB800EB6B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADA30D02965ACAD00EB6B1C = {
+			isa = PBXGroup;
+			children = (
+				FADA30DB2965ACAE00EB6B1C /* Heidrun MacOS Client */,
+				FADA30ED2965ACB700EB6B1C /* Heidrun MacOS ClientTests */,
+				FADA30F72965ACB800EB6B1C /* Heidrun MacOS ClientUITests */,
+				FADA30DA2965ACAE00EB6B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADA30DA2965ACAE00EB6B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADA30D92965ACAE00EB6B1C /* Heidrun MacOS Client.app */,
+				FADA30EA2965ACB700EB6B1C /* Heidrun MacOS ClientTests.xctest */,
+				FADA30F42965ACB800EB6B1C /* Heidrun MacOS ClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADA30DB2965ACAE00EB6B1C /* Heidrun MacOS Client */ = {
+			isa = PBXGroup;
+			children = (
+				FADA30DC2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift */,
+				FADA30DE2965ACAE00EB6B1C /* ContentView.swift */,
+				FADA30E02965ACB600EB6B1C /* Assets.xcassets */,
+				FADA30E52965ACB600EB6B1C /* Heidrun_MacOS_Client.entitlements */,
+				FADA30E22965ACB600EB6B1C /* Preview Content */,
+			);
+			path = "Heidrun MacOS Client";
+			sourceTree = "<group>";
+		};
+		FADA30E22965ACB600EB6B1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FADA30E32965ACB600EB6B1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FADA30ED2965ACB700EB6B1C /* Heidrun MacOS ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA30EE2965ACB700EB6B1C /* Heidrun_MacOS_ClientTests.swift */,
+			);
+			path = "Heidrun MacOS ClientTests";
+			sourceTree = "<group>";
+		};
+		FADA30F72965ACB800EB6B1C /* Heidrun MacOS ClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADA30F82965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift */,
+				FADA30FA2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift */,
+			);
+			path = "Heidrun MacOS ClientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADA30D82965ACAD00EB6B1C /* Heidrun MacOS Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA30FE2965ACB800EB6B1C /* Build configuration list for PBXNativeTarget "Heidrun MacOS Client" */;
+			buildPhases = (
+				FADA30D52965ACAD00EB6B1C /* Sources */,
+				FADA30D62965ACAD00EB6B1C /* Frameworks */,
+				FADA30D72965ACAD00EB6B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heidrun MacOS Client";
+			productName = "Heidrun MacOS Client";
+			productReference = FADA30D92965ACAE00EB6B1C /* Heidrun MacOS Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADA30E92965ACB700EB6B1C /* Heidrun MacOS ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA31012965ACB800EB6B1C /* Build configuration list for PBXNativeTarget "Heidrun MacOS ClientTests" */;
+			buildPhases = (
+				FADA30E62965ACB700EB6B1C /* Sources */,
+				FADA30E72965ACB700EB6B1C /* Frameworks */,
+				FADA30E82965ACB700EB6B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA30EC2965ACB700EB6B1C /* PBXTargetDependency */,
+			);
+			name = "Heidrun MacOS ClientTests";
+			productName = "Heidrun MacOS ClientTests";
+			productReference = FADA30EA2965ACB700EB6B1C /* Heidrun MacOS ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADA30F32965ACB800EB6B1C /* Heidrun MacOS ClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADA31042965ACB800EB6B1C /* Build configuration list for PBXNativeTarget "Heidrun MacOS ClientUITests" */;
+			buildPhases = (
+				FADA30F02965ACB800EB6B1C /* Sources */,
+				FADA30F12965ACB800EB6B1C /* Frameworks */,
+				FADA30F22965ACB800EB6B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADA30F62965ACB800EB6B1C /* PBXTargetDependency */,
+			);
+			name = "Heidrun MacOS ClientUITests";
+			productName = "Heidrun MacOS ClientUITests";
+			productReference = FADA30F42965ACB800EB6B1C /* Heidrun MacOS ClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADA30D12965ACAD00EB6B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FADA30D82965ACAD00EB6B1C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FADA30E92965ACB700EB6B1C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FADA30D82965ACAD00EB6B1C;
+					};
+					FADA30F32965ACB800EB6B1C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FADA30D82965ACAD00EB6B1C;
+					};
+				};
+			};
+			buildConfigurationList = FADA30D42965ACAD00EB6B1C /* Build configuration list for PBXProject "Heidrun MacOS Client" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADA30D02965ACAD00EB6B1C;
+			productRefGroup = FADA30DA2965ACAE00EB6B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADA30D82965ACAD00EB6B1C /* Heidrun MacOS Client */,
+				FADA30E92965ACB700EB6B1C /* Heidrun MacOS ClientTests */,
+				FADA30F32965ACB800EB6B1C /* Heidrun MacOS ClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADA30D72965ACAD00EB6B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA30E42965ACB600EB6B1C /* Preview Assets.xcassets in Resources */,
+				FADA30E12965ACB600EB6B1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA30E82965ACB700EB6B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA30F22965ACB800EB6B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADA30D52965ACAD00EB6B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA30DF2965ACAE00EB6B1C /* ContentView.swift in Sources */,
+				FADA30DD2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA30E62965ACB700EB6B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA30EF2965ACB700EB6B1C /* Heidrun_MacOS_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADA30F02965ACB800EB6B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADA30F92965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift in Sources */,
+				FADA30FB2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADA30EC2965ACB700EB6B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADA30D82965ACAD00EB6B1C /* Heidrun MacOS Client */;
+			targetProxy = FADA30EB2965ACB700EB6B1C /* PBXContainerItemProxy */;
+		};
+		FADA30F62965ACB800EB6B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADA30D82965ACAD00EB6B1C /* Heidrun MacOS Client */;
+			targetProxy = FADA30F52965ACB800EB6B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FADA30FC2965ACB800EB6B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADA30FD2965ACB800EB6B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FADA30FF2965ACB800EB6B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Heidrun MacOS Client/Heidrun_MacOS_Client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heidrun MacOS Client/Preview Content\"";
+				DEVELOPMENT_TEAM = 49WWYP88WH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabNovalski.Heidrun-MacOS-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FADA31002965ACB800EB6B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Heidrun MacOS Client/Heidrun_MacOS_Client.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heidrun MacOS Client/Preview Content\"";
+				DEVELOPMENT_TEAM = 49WWYP88WH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabNovalski.Heidrun-MacOS-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FADA31022965ACB800EB6B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49WWYP88WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabNovalski.Heidrun-MacOS-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heidrun MacOS Client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heidrun MacOS Client";
+			};
+			name = Debug;
+		};
+		FADA31032965ACB800EB6B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49WWYP88WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabNovalski.Heidrun-MacOS-ClientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Heidrun MacOS Client.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Heidrun MacOS Client";
+			};
+			name = Release;
+		};
+		FADA31052965ACB800EB6B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49WWYP88WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabNovalski.Heidrun-MacOS-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Heidrun MacOS Client";
+			};
+			name = Debug;
+		};
+		FADA31062965ACB800EB6B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49WWYP88WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabNovalski.Heidrun-MacOS-ClientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Heidrun MacOS Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADA30D42965ACAD00EB6B1C /* Build configuration list for PBXProject "Heidrun MacOS Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA30FC2965ACB800EB6B1C /* Debug */,
+				FADA30FD2965ACB800EB6B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA30FE2965ACB800EB6B1C /* Build configuration list for PBXNativeTarget "Heidrun MacOS Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA30FF2965ACB800EB6B1C /* Debug */,
+				FADA31002965ACB800EB6B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA31012965ACB800EB6B1C /* Build configuration list for PBXNativeTarget "Heidrun MacOS ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA31022965ACB800EB6B1C /* Debug */,
+				FADA31032965ACB800EB6B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADA31042965ACB800EB6B1C /* Build configuration list for PBXNativeTarget "Heidrun MacOS ClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADA31052965ACB800EB6B1C /* Debug */,
+				FADA31062965ACB800EB6B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADA30D12965ACAD00EB6B1C /* Project object */;
+}
