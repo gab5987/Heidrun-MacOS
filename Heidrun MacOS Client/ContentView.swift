@@ -18,21 +18,10 @@ struct ContentView: View {
         NavigationView {
             SideBar();
             
-            MainContent();
+            DashBoard();
         }
-        .frame(minWidth: 600, minHeight: 400);
+        .frame(minWidth: 1000, minHeight: 600);
         //.padding()
-    }
-}
-
-struct MainContent: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Trying some stuff yk")
-        }
     }
 }
 

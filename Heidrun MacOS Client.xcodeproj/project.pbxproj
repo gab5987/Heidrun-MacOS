@@ -15,6 +15,7 @@
 		FADA30F92965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30F82965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift */; };
 		FADA30FB2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30FA2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift */; };
 		FADA31082965B89000EB6B1C /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA31072965B89000EB6B1C /* SideBar.swift */; };
+		FADA310A2965C0D900EB6B1C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA31092965C0D900EB6B1C /* Dashboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FADA30F82965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientUITests.swift; sourceTree = "<group>"; };
 		FADA30FA2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FADA31072965B89000EB6B1C /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
+		FADA31092965C0D900EB6B1C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				FADA30DC2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift */,
 				FADA30DE2965ACAE00EB6B1C /* ContentView.swift */,
 				FADA31072965B89000EB6B1C /* SideBar.swift */,
+				FADA31092965C0D900EB6B1C /* Dashboard.swift */,
 				FADA30E02965ACB600EB6B1C /* Assets.xcassets */,
 				FADA30E52965ACB600EB6B1C /* Heidrun_MacOS_Client.entitlements */,
 				FADA30E22965ACB600EB6B1C /* Preview Content */,
@@ -264,6 +267,7 @@
 			files = (
 				FADA30DF2965ACAE00EB6B1C /* ContentView.swift in Sources */,
 				FADA31082965B89000EB6B1C /* SideBar.swift in Sources */,
+				FADA310A2965C0D900EB6B1C /* Dashboard.swift in Sources */,
 				FADA30DD2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
