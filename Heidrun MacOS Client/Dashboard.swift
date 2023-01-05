@@ -8,6 +8,10 @@
 import Foundation
 import SwiftUI
 
+// constants
+let servicesPopWidth: CGFloat = 330;
+let servicesPopHeight: CGFloat = 80;
+
 struct ServicesItems: Hashable {
     let name: String;
     let icon: String;
@@ -29,7 +33,7 @@ struct ServiceView: View {
             Text(service.name)
                 .font(.title)
         }
-        .frame(width: 180, height: 60)
+        .frame(width: servicesPopWidth, height: servicesPopHeight)
         .background(Color.init(red: 57/255, green: 63/255, blue: 73/255))
 //        .foregroundColor(.white)
         .cornerRadius(8)
@@ -55,13 +59,11 @@ struct DashBoard: View {
             //.init(name: "AAAAA", icon: "gear", status: true, addressIP: "192.168.0.86"),
         ]
     ];
-    var items: [GridItem] {
-      Array(repeating: .init(.adaptive(minimum: 200)), count: 2)
-    }
+
     private var threeColumnGrid = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
     
     var body: some View {
-        
+        // frame begin
         VStack {
             VStack(alignment: .leading, spacing: 2) {
                 Text("Dasboard")
@@ -70,28 +72,14 @@ struct DashBoard: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding(15)
             
-            ScrollView(.vertical, showsIndicators: false) {
-                ForEach(services, id: \.self) { service in
-                  LazyVGrid(columns: threeColumnGrid, spacing: 10) {
-                      ServiceView(service: service[0]);
-                      if(service.count > 1) { ServiceView(service: service[1]) }
-                      if(service.count > 2) { ServiceView(service: service[2]) }
-                  }
-                  .padding(.horizontal)
-                }
-              }
-            
             VStack(alignment: .center) {
-                /*
-                 
-        
-                HStack {
-                    ForEach(services, id: \.self) { service in
-                        ServiceView(service: service);
-                    }
-                }.frame(maxWidth: 600)
-                 
-                 */
+                ForEach(services, id: \.self) { service in
+                    LazyVGrid(columns: threeColumnGrid, spacing: 10) {
+                        ServiceView(service: service[0]);
+                        if(service.count > 1) { ServiceView(service: service[1]) }
+                        if(service.count > 2) { ServiceView(service: service[2]) }
+                    }.padding(.horizontal)
+                }
                 Image(systemName: "globe")
                     .imageScale(.large)
                     .foregroundColor(.accentColor)
@@ -99,14 +87,15 @@ struct DashBoard: View {
             }
         }
         .frame(
-              minWidth: 0,
+              minWidth: windowMinWidth,
               maxWidth: .infinity,
-              minHeight: 0,
+              minHeight: windowMinHeight,
               maxHeight: .infinity,
               alignment: .topLeading
             )
-        .background(Color.init(red: 17/255, green: 24/255, blue: 34/255))
+        .background(customColors_bgColor)
         Spacer()
+        //frame end
     }
 }
 
@@ -116,25 +105,3 @@ struct DashBoard_Previews: PreviewProvider {
     }
 }
 
-/*
- 
- struct ContentView: View {
-     let data = (1...100).map { "Item \($0)" }
-
-     let columns = [
-         GridItem(.adaptive(minimum: 80))
-     ]
-
-     var body: some View {
-         ScrollView {
-             LazyVGrid(columns: columns, spacing: 20) {
-                 ForEach(data, id: \.self) { item in
-                     Text(item)
-                 }
-             }
-             .padding(.horizontal)
-         }
-         .frame(maxHeight: 300)
-     }
- }
- */

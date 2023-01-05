@@ -15,3 +15,8 @@ struct Heidrun_MacOS_ClientApp: App {
         }
     }
 }
+
+let windowMinWidth: CGFloat = 1200;
+let windowMinHeight: CGFloat = 720;
+
+let customColors_bgColor = Color.init(red: 17/255, green: 24/255, blue: 34/255);

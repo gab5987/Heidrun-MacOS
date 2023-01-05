@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2BBC0629678E0D003BB32A /* ServerSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BBC0529678E0D003BB32A /* ServerSetup.swift */; };
 		FADA30DD2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30DC2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift */; };
 		FADA30DF2965ACAE00EB6B1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30DE2965ACAE00EB6B1C /* ContentView.swift */; };
 		FADA30E12965ACB600EB6B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADA30E02965ACB600EB6B1C /* Assets.xcassets */; };
@@ -14,7 +15,6 @@
 		FADA30EF2965ACB700EB6B1C /* Heidrun_MacOS_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30EE2965ACB700EB6B1C /* Heidrun_MacOS_ClientTests.swift */; };
 		FADA30F92965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30F82965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift */; };
 		FADA30FB2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA30FA2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift */; };
-		FADA31082965B89000EB6B1C /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA31072965B89000EB6B1C /* SideBar.swift */; };
 		FADA310A2965C0D900EB6B1C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADA31092965C0D900EB6B1C /* Dashboard.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA2BBC0529678E0D003BB32A /* ServerSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSetup.swift; sourceTree = "<group>"; };
 		FADA30D92965ACAE00EB6B1C /* Heidrun MacOS Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heidrun MacOS Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA30DC2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientApp.swift; sourceTree = "<group>"; };
 		FADA30DE2965ACAE00EB6B1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		FADA30F42965ACB800EB6B1C /* Heidrun MacOS ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heidrun MacOS ClientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADA30F82965ACB800EB6B1C /* Heidrun_MacOS_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientUITests.swift; sourceTree = "<group>"; };
 		FADA30FA2965ACB800EB6B1C /* Heidrun_MacOS_ClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heidrun_MacOS_ClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FADA31072965B89000EB6B1C /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		FADA31092965C0D900EB6B1C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,7 @@
 			children = (
 				FADA30DC2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift */,
 				FADA30DE2965ACAE00EB6B1C /* ContentView.swift */,
-				FADA31072965B89000EB6B1C /* SideBar.swift */,
+				FA2BBC0529678E0D003BB32A /* ServerSetup.swift */,
 				FADA31092965C0D900EB6B1C /* Dashboard.swift */,
 				FADA30E02965ACB600EB6B1C /* Assets.xcassets */,
 				FADA30E52965ACB600EB6B1C /* Heidrun_MacOS_Client.entitlements */,
@@ -266,7 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FADA30DF2965ACAE00EB6B1C /* ContentView.swift in Sources */,
-				FADA31082965B89000EB6B1C /* SideBar.swift in Sources */,
+				FA2BBC0629678E0D003BB32A /* ServerSetup.swift in Sources */,
 				FADA310A2965C0D900EB6B1C /* Dashboard.swift in Sources */,
 				FADA30DD2965ACAE00EB6B1C /* Heidrun_MacOS_ClientApp.swift in Sources */,
 			);
