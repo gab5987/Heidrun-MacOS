@@ -29,9 +29,34 @@ struct ServiceView: View {
                 .inset(by: 1)
                 .fill(Color.init(red: 39/255, green: 45/255, blue: 55/255))
                 .cornerRadius(10)
-
-            Text(service.name)
-                .font(.title)
+            
+            HStack {
+                Image(systemName: service.icon)
+                    .imageScale(.large)
+                    .foregroundColor(.gray)
+                Spacer().frame(width: 10)
+                
+                VStack(alignment: .leading) {
+                    Text("Hostname:").foregroundColor(Color.gray);
+                    Text("Status:").foregroundColor(Color.gray);
+                    Text("Address:").foregroundColor(Color.gray);
+                }
+                
+                Spacer().frame(width: 100)
+                
+                VStack(alignment: .trailing) {
+                    Text(service.name);
+                    
+                    if(service.status) {
+                        Text("· ONLINE").foregroundStyle(.green);
+                    } else {
+                        Text("· OFFLINE").foregroundStyle(.red);
+                    }
+                    
+                    Text(service.addressIP).font(.caption).foregroundColor(Color.gray)
+                }.frame(alignment: .trailing)
+            }
+            
         }
         .frame(width: servicesPopWidth, height: servicesPopHeight)
         .background(Color.init(red: 57/255, green: 63/255, blue: 73/255))
@@ -44,18 +69,18 @@ struct DashBoard: View {
     
     let services: [[ServicesItems]] = [
         [
-            .init(name: "Lorem", icon: "gear", status: true, addressIP: "192.168.0.86"),
-            .init(name: "Ipsum", icon: "gear", status: true, addressIP: "192.168.0.86"),
-            .init(name: "Dolor", icon: "gear", status: true, addressIP: "192.168.0.86"),
+            .init(name: "Server", icon: "server.rack", status: true, addressIP: "192.168.0.86"),
+            .init(name: "Actuator", icon: "gear", status: false, addressIP: "192.168.0.86"),
+            .init(name: "Cloud Storage", icon: "cloud.fill", status: true, addressIP: "192.168.0.86"),
         ],
         [
-            .init(name: "Sit", icon: "gear", status: true, addressIP: "192.168.0.86"),
-            .init(name: "Amet", icon: "gear", status: true, addressIP: "192.168.0.86"),
-            .init(name: "Algum", icon: "gear", status: true, addressIP: "192.168.0.86"),
+            .init(name: "Power Actuator", icon: "powerplug", status: false, addressIP: "192.168.0.86"),
+            .init(name: "Actuator", icon: "gear", status: true, addressIP: "192.168.0.86"),
+            .init(name: "Internet Access", icon: "network", status: true, addressIP: "192.168.0.86"),
         ],
         [
-            .init(name: "Texto", icon: "gear", status: true, addressIP: "192.168.0.86"),
-            .init(name: "Teste", icon: "gear", status: true, addressIP: "192.168.0.86"),
+            .init(name: "Sensor 1", icon: "sensor", status: false, addressIP: "192.168.0.86"),
+            .init(name: "Sensor 2", icon: "sensor", status: true, addressIP: "192.168.0.86"),
             //.init(name: "AAAAA", icon: "gear", status: true, addressIP: "192.168.0.86"),
         ]
     ];
