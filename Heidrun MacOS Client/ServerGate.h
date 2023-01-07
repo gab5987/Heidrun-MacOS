@@ -12,10 +12,10 @@
 
 @interface ServerGate : NSObject
 
-// @property (strong, nonatomic) id someProperty;
+@property (strong) NSString* dataFetched;
+@property bool gotData;
 
-- (int) someMethod;
-- (NSString *) getDataFrom:(NSString *)url;
+- (void) getDataFrom:(NSString *)url;
 
 @end
 

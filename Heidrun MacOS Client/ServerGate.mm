@@ -11,32 +11,22 @@
 
 @implementation ServerGate
 
-- (int) someMethod {
-    return 12;
-}
+NSString *dataFetched;
+bool gotData = false;
 
-- (NSString *) getDataFrom:(NSString *)url{
-    
-    // NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
+- (void) getDataFrom:(NSString *)url {
     
     NSURLSession *sessionWithoutADelegate = [NSURLSession sessionWithConfiguration: [NSURLSessionConfiguration defaultSessionConfiguration]];
     NSURL *urlNS = [NSURL URLWithString: url];
-    
-    __block NSData *possibleData;
     
     [[sessionWithoutADelegate dataTaskWithURL:urlNS completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         NSLog(@"Got response %@ with error %@.\n", response, error);
         NSLog(@"DATA:\n%@\nEND DATA\n", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
         
-        possibleData = data;
+        self.dataFetched = [[NSString alloc] initWithData: data encoding:NSUTF8StringEncoding];
+        // NSLog(@"DATA IN STRING: %@\n", self.dataFetched);
+        self.gotData = true;
     }] resume];
-    
-    
-    NSString *myString = [[NSString alloc] initWithData: possibleData encoding:NSUTF8StringEncoding];
-    
-    NSLog(@"DATA IN STRING: %@\n", myString);
-    
-    return myString;
 }
 
 @end
