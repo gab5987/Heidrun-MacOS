@@ -15,6 +15,7 @@
 // @property (strong, nonatomic) id someProperty;
 
 - (int) someMethod;
+- (NSString *) getDataFrom:(NSString *)url;
 
 @end
 
